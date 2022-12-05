@@ -1,0 +1,1072 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    height: 800vh;
+}
+
+.firstpage {
+    width: 100%;
+    background-image: url(main_bg2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 2s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 3px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: 1s;
+}
+
+.nav1 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: #2196f3bf;
+    height: 4.5vh;
+}
+
+.login {
+    display: flex;
+    list-style-type: none;
+    float: right;
+    font-family: "Kanit", sans-serif;
+}
+
+.login li {
+    padding: 0.4rem;
+    margin-right: 1rem;
+}
+
+.nav2 {
+    width: 100%;
+    position: absolute;
+    top: 4.5vh;
+    background-color: #03a9f4;
+    height: 10vh;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    font-family: "Kanit", sans-serif;
+    position: relative;
+    top: -4.5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 27rem;
+}
+
+.nav li {
+    padding: 1.5rem;
+}
+
+.musicstore {
+    float: right;
+    width: 9rem;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 3px;
+    position: relative;
+    top: -8rem;
+    right: 1rem;
+    font-family: "Kanit", sans-serif;
+}
+
+.maincontent {
+    font-family: "Play", sans-serif;
+    font-size: 5rem;
+    letter-spacing: 13px;
+    color: #03a9f4;
+    position: relative;
+    top: 40%;
+    right: 5%;
+    float: right;
+}
+
+.maincontent h5 {
+    font-size: 1rem;
+    letter-spacing: 6px;
+    color: white;
+    float: right;
+    position: relative;
+    right: 2%;
+    margin-top: 11px;
+}
+
+.secondpage {
+    width: 100%;
+    background-image: url(main_bg_2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 100vh;
+    height: 100vh;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 4s;
+}
+
+.secondpage h2 {
+    position: relative;
+    font-size: 5rem;
+    left: 1rem;
+    top: 2rem;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-shadow: 5px 4px black;
+    display: inline-block;
+}
+
+.secondpage p {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    top: 153px;
+    left: -23rem;
+    font-family: "Red Hat Display", sans-serif;
+    line-height: 40px;
+    background: #ffffffab;
+    padding: 9px;
+}
+
+.artist {
+    display: inline-grid;
+    flex-direction: row;
+    position: relative;
+    width: 36%;
+    left: 6%;
+    top: 0;
+    height: 91vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.artists {
+    /* border: 2px solid black; */
+    /* padding: 13px; */
+    margin: 15px;
+    height: 26vh;
+}
+
+#artist-1 {
+    background-image: url(ariana.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 6px 3px black;
+}
+
+#artist-2 {
+    background-image: url(drake.webp);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 6px 3px black;
+}
+
+#artist-3 {
+    background-image: url(bieber.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 6px 3px black;
+}
+
+#artist-4 {
+    background-image: url(katy-perry.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 6px 3px black;
+}
+
+#artist-5 {
+    background-image: url(taylor.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 6px 3px black;
+}
+
+#artist-6 {
+    background-image: url(ed.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 6px 3px black;
+}
+
+.artist p {
+    display: inline-block;
+    width: 98%;
+    position: relative;
+    top: 77%;
+    left: 2px;
+    font-family: "Red Hat Display", sans-serif;
+    line-height: 40px;
+    background: #ffffffab;
+    padding: 1px;
+    text-align: center;
+    font-weight: 800;
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition-duration: 3s;
+}
+
+.artists:hover {
+    transform: scale(1.2);
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.5s;
+}
+
+.footer-1 {
+    position: relative;
+    top: -43px;
+}
+
+.thirdpage {
+    width: 100%;
+    background-image: url(conc_bg_1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 200vh;
+    height: 100vh;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 2s;
+}
+
+.thirdpage h1 {
+    position: relative;
+    font-size: 5rem;
+    left: 30%;
+    top: 2rem;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-shadow: 5px 4px black;
+    letter-spacing: 24px;
+    display: inline;
+}
+
+.thirdpage p {
+    font-family: "Kanit", sans-serif;
+    position: relative;
+    top: 2.5rem;
+    left: -233px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 27rem;
+    font-size: 27px;
+    /* width: 25%; */
+    text-align: center;
+}
+
+.button {
+    display: inline;
+    border: 2px solid white;
+    padding: 12px;
+    position: relative;
+    top: 6rem;
+    left: 27rem;
+    margin: 46px;
+    font-family: "Kanit";
+    font-size: larger;
+    background: white;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-2 {
+    position: relative;
+    top: 64vh;
+    left: 30px;
+    display: inline;
+}
+
+.fourthview {
+    width: 100%;
+    background-image: url(main_bg_.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 300vh;
+    height: 100vh;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 4s;
+}
+
+#album {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 66px;
+    position: relative;
+    top: 25px;
+    left: 40%;
+    letter-spacing: 15px;
+    display: inline-block;
+}
+
+.wrapper {
+    position: relative;
+    top: 40vh;
+    font-family: "Kanit", sans-serif;
+    font-size: 3rem;
+    position: relative;
+}
+
+.wrapper .outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .card {
+    /* background: #fff; */
+    width: 32rem;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    justify-content: space-between;
+    border-radius: 100px 20px 20px 100px;
+    box-shadow: 0px 10px 15px rgb(0 0 0 / 10%);
+    animation: animate 15s linear infinite;
+    animation-delay: calc(3s * var(--delay));
+    height: 50vh;
+}
+
+.outer:hover .card {
+    animation-play-state: paused;
+}
+
+.wrapper .card:last-child {
+    animation-delay: calc(-3s * var(--delay));
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateX(100%) scale(0.5);
+    }
+    5%,
+    20% {
+        opacity: 0.7;
+        transform: translateX(100%) scale(0.7);
+    }
+    25%,
+    40% {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateX(0%) scale(1);
+    }
+    45%,
+    60% {
+        opacity: 0.7;
+        transform: translateX(-100%) scale(0.7);
+    }
+    65%,
+    100% {
+        opacity: 0;
+        transform: translateX(-100%) scale(0.5);
+    }
+}
+
+.card .content {
+    display: flex;
+    align-items: center;
+}
+
+.card .details {
+    margin-left: 80px;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 2rem;
+    background: rgba(255, 255, 255, 0.768);
+    padding: 15px;
+    border-radius: 100px 20px 20px 100px;
+}
+
+.card a {
+    position: relative;
+    top: 70px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 25px;
+    color: black;
+    background: whitesmoke;
+    /* background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%); */
+    transition: all 0.3s ease;
+}
+
+#listen {
+    position: relative;
+    top: -40px;
+    left: 142px;
+}
+
+#listen_slow {
+    position: relative;
+    left: 100px;
+    top: -40px;
+}
+
+#listen_romantic {
+    position: relative;
+    top: -40px;
+    left: 130px;
+}
+
+.card a:hover {
+    transform: scale(0.94);
+}
+
+#hip-hop {
+    background-image: url(https://images.theconversation.com/files/179797/original/file-20170726-14517-sc2a8r.jpg?ixlib=rb-1.1.0&rect=0%2C528%2C4256%2C2064&q=45&auto=format&w=1356&h=668&fit=crop);
+    background-position: center;
+    background-size: cover;
+}
+
+#romantic {
+    background-image: url(https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#slow {
+    background-image: url(https://vcreporter.com/wp-content/uploads/2018/02/WEB_OLDune2012-1024x640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#mashups {
+    background-image: url(https://www.teenstarcompetition.co.uk/wp-content/uploads/2019/03/Creating-a-Music-Mashup-e1587479957760.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#rocking {
+    background-image: url(https://dssc.co/wp-content/uploads/2017/03/Rock-Concert-Background-Hard-rock-concert-concerts.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fifthpage {
+    width: 99%;
+    background-color: black;
+    position: absolute;
+    top: 400vh;
+    height: 116vh;
+    /* border: 1px solid white; */
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 4s;
+    padding: 8px;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.grid_container {
+    display: grid;
+    height: 112vh;
+    grid-template-rows: 0fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px 5px;
+}
+
+.item:hover {
+    opacity: none;
+    transform: scale(1.02);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-duration: 1.5s;
+}
+
+#grid_item1 {
+    grid-column: 1 / span 2;
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/06/210413_ROLLING_STONE_06_1486_v4-billie-opener.jpg?resize=3000,1500&w=1400);
+    background-size: cover;
+    background-position: top;
+}
+
+#grid_item0::before {
+    content: "";
+    height: 111vh;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#grid_item1 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+    text-shadow: 3px 3px black;
+}
+
+#grid_item1 p {
+    display: inline-block;
+    width: 50%;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 155px;
+}
+
+#grid_item2 {
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/07/GettyImages-1166479364-2.jpg?resize=940,705&w=940);
+    background-size: cover;
+    background-position: top;
+}
+
+#grid_item2 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 21px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+    text-shadow: 2px 2px black;
+}
+
+#grid_item3 {
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/07/ballerini-campfire.jpg?resize=940,705&w=940);
+    background-size: cover;
+    background-position: top;
+}
+
+#grid_item3 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 21px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+    text-shadow: 2px 2px black;
+}
+
+#grid_item4 {
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/06/FOTO-AUTORIZADA-02c.jpg?resize=940,705&w=940);
+    background-size: cover;
+    background-position: top;
+}
+
+#grid_item4 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 21px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+    text-shadow: 2px 2px black;
+}
+
+#grid_item5 {
+    cursor: none;
+    grid-column: 2 / span 2;
+    color: white;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 60px;
+}
+
+.head_details {
+    position: relative;
+    top: 30%;
+}
+
+#blog_span {
+    font-size: 20px;
+}
+
+#grid_item9 {
+    grid-column: 3 / span 2;
+}
+
+#grid_item6 {
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/07/Midland_P_350_20210207_HSmith_FINAL_TLR_PRESS_DSC9892_crop-2.jpg?resize=940,705&w=940);
+    background-size: cover;
+    background-position: top;
+}
+
+#grid_item6 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 21px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+    text-shadow: 2px 2px black;
+}
+
+#grid_item7 {
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-02-at-8.07.53-AM.jpg?resize=940,705&w=940);
+    background-size: cover;
+    background-position: top;
+}
+
+#grid_item7 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 21px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+    text-shadow: 2px 2px black;
+}
+
+#grid_item8 {
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/07/bob-dylan-concert-film.jpg?resize=940,705&w=940);
+    background-size: cover;
+    background-position: top;
+}
+
+#grid_item8 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 21px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 150px;
+    text-shadow: 2px 2px black;
+}
+
+#grid_item9 {
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2021/07/bts.jpeg?resize=1800,1200&w=1200);
+    background-size: cover;
+    background-position: top;
+}
+
+#grid_item9 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+    position: relative;
+    top: 203px;
+    text-shadow: 4px 3px black;
+}
+
+.sixthpage {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 516vh;
+    height: 100vh;
+    /* border: 1px solid white; */
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 4s;
+    /* padding: 15px; */
+}
+
+.sixthpage h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 15px;
+    position: relative;
+    left: 39%;
+    top: 12px;
+    letter-spacing: 18px;
+    display: inline-block;
+}
+
+.grid_container2 {
+    display: grid;
+    height: 86vh;
+    grid-template-columns: 0fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px 5px;
+}
+
+.itemB {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.itemB:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 1.5s;
+    opacity: none;
+}
+
+#grid2item0::before {
+    content: "";
+    position: absolute;
+    height: 86vh;
+    top: 120px;
+    right: 0px;
+    bottom: 0px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#grid2item1 {
+    background-image: url(https://static.billboard.com/files/2021/06/feature-f9-fast-furious-anitta-billboard-austin-hargrave-1-1548-1623968513-compressed.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid2item1 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 31px;
+    color: black;
+    position: relative;
+    top: 85%;
+    text-align: center;
+    background: #ffffffa6;
+}
+
+#grid2item2 {
+    background-image: url(https://static.billboard.com/files/2021/05/Usher-iheartradio-music-awards-2021-billboard-1548-1622162465-compressed.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid2item2 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 31px;
+    color: black;
+    position: relative;
+    top: 77%;
+    text-align: center;
+    background: #ffffffa6;
+}
+
+#grid2item3 {
+    background-image: url(https://static.billboard.com/files/2021/04/Selena-gomez-puma-Cali-Star-1548-1617731104-compressed.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+#grid2item3 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 27px;
+    color: black;
+    position: relative;
+    top: 74%;
+    text-align: center;
+    background: #ffffffa6;
+}
+
+#grid2item4 {
+    background-image: url(https://static.billboard.com/files/2021/03/02-Billie-Eilish-hair-billboard-1548-1616088574-compressed.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid2item4 h3 {
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    color: black;
+    position: relative;
+    top: 78%;
+    text-align: center;
+    background: #ffffffa6;
+}
+
+.seventhpage {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 623vh;
+    height: 220vh;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 4s;
+    /* padding: 15px; */
+}
+
+.seventhpage h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 15px;
+    position: relative;
+    left: 34%;
+    top: 12px;
+    letter-spacing: 18px;
+    display: inline-block;
+}
+
+.grid_container3 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    max-width: 100%;
+    font-size: 0;
+    height: 50vh;
+}
+
+.itemC {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.itemC {
+    display: inline-block;
+    min-height: 400px;
+    width: 50%;
+}
+
+#grid3item1 {
+    background-image: url("https://i2-prod.manchestereveningnews.co.uk/incoming/article7997742.ece/ALTERNATES/s1227b/JS48690576.jpg");
+    background-position: center;
+}
+
+#grid3item2 {
+    background-image: url("https://robdicksonmusic.com/wp-content/uploads/2020/03/Powerful-Reasons-Learning-Guitar.jpg");
+}
+
+#grid3item3 {
+    background-image: url("https://images.thebrag.com/td/uploads/2017/08/despacito-768x355.jpg");
+    background-size: cover;
+}
+
+#grid3item4 {
+    background-image: url("https://i.pinimg.com/originals/d8/20/ac/d820ac772bf5bb8cda6a974de7f44c05.jpg");
+}
+
+@supports (display: grid) {
+    .itemC {
+        width: auto;
+        min-height: 0;
+    }
+    #grid3item1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 / 50;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 75px), 0 100%);
+    }
+    #grid3item2 {
+        grid-column: 1 / span 1;
+        grid-row: 50 / 100;
+        -webkit-clip-path: polygon(0 14%, 0 86%, 90% 81%, 100% 6%);
+        clip-path: polygon(0 14%, 0 86%, 90% 81%, 100% 6%);
+        margin-top: -73px;
+    }
+    #grid3item3 {
+        grid-column: 2 / span 1;
+        grid-row: 50 / 100;
+        -webkit-clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+        clip-path: polygon(13% 6%, 4% 84%, 100% 100%, 100% 0%);
+        margin-top: -73px;
+        margin-left: -15%;
+        margin-bottom: 18px;
+    }
+    #grid3item4 {
+        grid-column: 1 / span 2;
+        grid-row: 100 / 150;
+        -webkit-clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
+        clip-path: polygon(45% 0, 100% 15%, 100% 100%, 0 100%, 0 5%);
+        margin-top: -107px;
+    }
+}
+
+.itemC:hover {
+    transform: scale(1.02);
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 1.5s;
+}
+
+#grid3item1 h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 41px;
+    color: white;
+    position: relative;
+    top: 4%;
+    left: 57rem;
+    text-align: center;
+}
+
+#grid3item2 h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 41px;
+    color: white;
+    position: relative;
+    top: 14%;
+    left: 0rem;
+    text-align: left;
+}
+
+#grid3item3 h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 41px;
+    color: white;
+    position: relative;
+    top: 71%;
+    left: 11rem;
+    text-align: center;
+}
+
+#grid3item4 h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 52px;
+    color: white;
+    position: relative;
+    top: 7%;
+    left: 0rem;
+    text-align: center;
+}
+
+.eightpage {
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp7869763.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* opacity: 0.9; */
+    background-color: black;
+    position: absolute;
+    top: 850vh;
+    height: 90vh;
+    /* border: 1px solid white; */
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 4s;
+    /* padding: 15px; */
+}
+
+.eightpage h2 {
+    font-family: "Kanit", sans-serif;
+    font-size: 33px;
+    color: white;
+    margin: 15px;
+    position: relative;
+    left: 16%;
+    top: -20px;
+    letter-spacing: 14px;
+    text-align: center;
+    display: inline-block;
+}
+
+.signin {
+    color: white;
+    border: 2px solid white;
+    height: 77vh;
+    width: 53vh;
+    font-family: "Kanit", sans-serif;
+    padding: auto;
+}
+
+.signin h3,
+.signup h3 {
+    font-size: 33px;
+    color: white;
+    margin: 15px;
+    letter-spacing: 10px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+input[type="text"] {
+    display: inline-block;
+    width: 80%;
+    padding: 15px;
+    margin: 22px;
+    font-family: "Play";
+    font-weight: bolder;
+    position: relative;
+    top: 60px;
+}
+
+.signin h6 {
+    position: relative;
+    float: right;
+    top: 49px;
+    right: 22px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    position: relative;
+    top: 120px;
+    left: 35%;
+    padding: 8px;
+    font-family: "Kanit";
+    width: 26%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.signin h5 {
+    position: relative;
+    top: 39%;
+    left: 37%;
+    cursor: pointer;
+}
+
+.signup {
+    color: white;
+    float: right;
+    position: relative;
+    top: -557px;
+    border: 2px solid white;
+    height: 77vh;
+    width: 53vh;
+    font-family: "Kanit", sans-serif;
+    padding: auto;
+    right: 50px;
+}
+
+.signup h5 {
+    position: relative;
+    top: 23%;
+    left: 74%;
+    cursor: pointer;
+    display: inline;
+}
+
+.signup input[type="submit"] {
+    position: relative;
+    top: 86px;
+    left: 37%;
+}
+
+.mainfooter {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 946vh;
+    height: 30vh;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 1.5s;
+    /* padding: 15px; */
+}
+
+.footer_content {
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.687);
+    position: relative;
+    top: 10vh;
+}
